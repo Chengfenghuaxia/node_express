@@ -21,7 +21,7 @@ app.post('/api/addoneArea', async (req, res) => {
     const params = req.body;
     console.log(params);
     let result = await server.addDatainfo(client, db, tb, req.body)
-    logger.info("查看日志输出112")
+    logger.info("查看日志输出11211")
     res.send({
         code: 200,
         msg: 'success',
@@ -29,7 +29,7 @@ app.post('/api/addoneArea', async (req, res) => {
     });
 })
 app.post('/api/pageArea', async (req, res) => {
-    logger.error("这是错误日志223")
+    logger.error("这是错误日志22344")
     // 获取查询参数
     const params = req.body;
     console.log(params);
